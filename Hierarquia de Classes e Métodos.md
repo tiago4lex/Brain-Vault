@@ -1,0 +1,334 @@
+2025-12-05 18:04
+
+Status: #developed #Java 
+
+Tags:
+
+----
+# Introdução
+
+A hierarquia de classes em Java descreve como as classes se relacionam entre si através do mecanismo de **herança**, formando uma estrutura "em árvore". Esse modelo organiza o código, reaproveita funcionalidades  e permite o uso de **polimorfismo**.
+
+Java utiliza herança **simples** (uma classe só pode estender outra classe), mas permite implementar múltiplas interfaces.
+
+---
+# O que é Herança?
+
+Herança é um mecanismo que permite que uma classe (**subclasse** ou **classe filha**) herde atributos e métodos de outra classe (**superclasse** ou **classe pai**).
+
+## Benefícios:
+
+- Reutilização de código.
+- Organização lógica.
+- Extensibilidade (adicionar novas funcionalidades sem duplicação).
+- Permite o polimorfismo.
+
+## Sintaxe
+
+```java
+class SuperClasse {
+	// atributos e métodos
+}
+
+class SubClasse extends SuperClasse {
+	// novos atributos e métodos
+}
+```
+
+---
+# A Hierarquia Base do Java
+
+Toda classe Java, se não usar `extends`, herda implicitamente de:
+
+```cs
+Object
+  └── Todas as classes do Java e classes criadas pelo usuário
+```
+
+A classe `java.lang.Object` fornece métodos universais:
+
+- `toString()`
+- `equals(Object obj)`
+- `hashCode()`
+- `getClass()`
+- `clone()` (com restrições)
+- `finalize()` (depreciado)
+
+---
+# Herança na Prática
+
+```java
+class Animal {
+	void emitirSom() {
+		System.out.println("O animal faz um som.");
+	}
+}
+
+class Cachorro extends Animal {
+	void emitirSom() {
+		System.out.prinln("O cahorro late: Au Au!");
+	}
+}
+```
+
+**O que acontece aqui?**
+
+- `Animal` é a superclasse.
+- `Cachorro` estende `Animal`.
+- `Cachorro` **sobrescreve** o método `emitirSom()`.
+
+---
+# Sobrescrita de Métodos (`@Override`)
+
+Quando uma subclasse **redefine** um método da superclasse.
+
+## Regras
+
+- Assinatura **exatamente igual**.
+- Mesmo tipo de retorno (ou covariante).
+- A visibilidade não pode ser reduzida.
+- Usa `@Override` (boa prática).
+
+## Exemplo
+
+```java
+class Animal {
+	void dormir() {
+		System.out.println("Animal dormindo.");
+	}
+}
+
+class Gato extends Animal {
+	@Override
+	void dormir() {
+		System.out.println("Gato dormindo enrolado.");
+	}
+}
+```
+
+---
+# Sobrecarga de métodos (Overload)
+
+Quando métodos **têm o memso nome**, mas assinaturas diferentes dentro da mesma classe.
+
+## Regras
+
+- Tipo ou número de parâmetros deve ser diferente.
+- Retorno pode ser diferente (mas não define a sobrecarga).
+
+## Exemplo
+
+```java
+class Calculadora {
+	int soma(int a, int b) {
+		return a + b;
+	}
+	
+	int soma(int a, int b, int c) {
+		return a + b + c;
+	}
+	
+	int soma (double a, double b) {
+		return a + b;
+	}
+}
+```
+
+> **Isso NÃO é sobrescrita, é *übercarga***.
+
+---
+# Construtores e Hierarquia
+
+Construtores **não são herdados**, mas a subclasse costuma chamar o contrutor da superclasse com `super()`.
+
+**Exemplo:**
+
+```java
+class Pessoa {
+	String nome;
+	
+	Pessoa(String nome) {
+		this.nome = nome;
+	}
+}
+
+class Estudante extends Pessoa {
+	String curso;
+	
+	Estudante(String nome, String curso) {
+		super(nome); // chama o construtor da superclasse
+		this.curso = curso;
+	}
+}
+```
+
+---
+# Uso do `super` na hierarquia
+
+`super` permite:
+
+- Acessar métodos da superclasse.
+- Acessar o construtor da superclasse.
+- Diferenciar atributos sobrescritos.
+
+**Exemplo:**
+
+```java
+class Animal {
+	void mover() {
+		System.out.println("Animal se movendo");
+	}
+}
+
+class Peixe extends Animal {
+	void mover() {
+		super.mover(); // chama Animal.mover()
+		System.out.printlnn("Peixe nadando");
+	}
+}
+```
+
+---
+# Modificadores de Acesso na Herança
+
+|Modificador|Herdado?|Acessível na Subclasse?|
+|---|---|---|
+|private|❌ Não|❌ Não|
+|default|✔ Sim|✔ Sim (mesmo pacote)|
+|protected|✔ Sim|✔ Sim (inclusive fora do pacote)|
+|public|✔ Sim|✔ Sim|
+
+---
+# Classes Abstratas
+
+Uma classe abstrata NÃO pode ser instanciada e pode conter métodos:
+
+- abstratos (sem corpo)
+- concretos (com implementação)
+
+## Sintaxe
+
+```java
+abstract class Forma {
+	abstract double calcularArea();
+	
+	void descricao() {
+		System.out.println("Forma geométrica");
+	}
+}
+```
+
+## Subclasse
+
+```java
+class Circulo extends Forma {
+	double raio;
+	
+	Circulo(double raio) {
+		this.raio = raio;
+	}
+	
+	@Override
+	double calcularArea() {
+		return Math.PI * raio * raio;
+	}
+}
+```
+
+---
+# Interfaces na Hierarquia
+
+Interfaces definem **contratos** (métodos que devem ser implementados).
+
+```java
+interface Voavel {
+	void voar();
+}
+
+class Passaro implements Voavel {
+	public void voar() {
+		System.out.println("Pássaro voando");
+	}
+}
+```
+
+### Java permite _múltiplas interfaces_
+
+**Exemplo:**
+
+```java
+class Drone implements Voavel, Controlave {}
+```
+
+---
+# Polimorfismo
+
+Quando objetos diferentes são tratados como se fossem da mesma superclasse.
+
+## Exemplo:
+
+```java
+Animal a1 = new Cachorro();
+Animal a2 = new Gato();
+
+a1.emitirSom(); // Au Au!
+a2.emitirSom(); // Miau!
+```
+
+O método executado depende do **tipo real do objeto**, não da variável.
+
+---
+# Hierarquia Completa - Exemplo de Árvore
+
+```markdown
+Animal (superclasse)
+ ├── Mamífero
+ │     ├── Cachorro
+ │     └── Gato
+ └── Ave
+       ├── Pinguim
+       └── Falcão
+```
+
+---
+# Vantagens e Desvantagens da Herança
+
+### ✔ Vantagens:
+
+- Reuso de código
+- Reduz duplicação
+- Favorece polimorfismo
+- Estrutura lógica e organizada
+
+### ❌ Desvantagens:
+
+- Hierarquias profundas se tornam difíceis de manter
+- Aumenta acoplamento
+- Às vezes composição é melhor que herança
+
+---
+# Comparação: Herança x Composição
+
+|Característica|Herança|Composição|
+|---|---|---|
+|Relação|“é um”|“tem um”|
+|Flexibilidade|Menor|Maior|
+|Reuso|Alto|Alto|
+|Indicado para|Hierarquia bem definida|Modularidade|
+
+**Exemplo:**
+
+```java
+class Motor {
+    void ligar(){
+        System.out.println("Motor ligado!");
+    }
+}
+
+class Carro {
+    Motor motor = new Motor(); // Carro TEM um motor
+}
+```
+
+---
+
