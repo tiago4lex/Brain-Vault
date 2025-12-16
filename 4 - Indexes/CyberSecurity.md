@@ -79,10 +79,22 @@
 
 ### **2.1 Fundamentos de Redes em Cibersegurança**
 
- - [[Modelo OSI Aplicado à Cibersegurança]]
- - [[Modelo TCP.IP Aplicado à Cibersegurança]]
- - [[Cabeçalhos de Pacotes]]
- - [[Protocolo NAT]]
+- 2.1.1 Camada de Rede
+	- [[Cabeçalhos de Pacotes]]
+	- [[Modelo OSI Aplicado à Cibersegurança]]
+	- [[Modelo TCP.IP Aplicado à Cibersegurança]]
+	- [[Protocolo NAT]]
+	- [[Protocolo ARP (Address Resolution Protocol)]]
+
+- 2.1.2 Camada de Transporte
+	- [[TCP Flags - Conceitos, Funcionamento e Importância em Cibersegurança]]
+	- [[Three-Way Handshake]]
+	- [[Protocolo UDP (Used Datagram Protocol)]]
+
+- 2.1.3 Camada de Aplicação
+	- 
+
+
 ### **2.2 Proteção de Infraestrutura**
 
 - [[Telnet - Telecommunication Network]]
