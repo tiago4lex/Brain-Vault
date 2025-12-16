@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#Java  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#javascript  ",
+      "color": {
+        "a": 1,
+        "rgb": 15428096
+      }
+    },
+    {
+      "query": "tag:#Linux  ",
+      "color": {
+        "a": 1,
+        "rgb": 4658431
+      }
+    },
+    {
+      "query": "tag:#C  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:#redes  ",
+      "color": {
+        "a": 1,
+        "rgb": 977915
+      }
+    },
+    {
+      "query": "tag:#segurança  ",
+      "color": {
+        "a": 1,
+        "rgb": 16505399
+      }
+    },
+    {
+      "query": "tag:#SQL  ",
+      "color": {
+        "a": 1,
+        "rgb": 16553948
+      }
+    },
+    {
+      "query": "tag:#UX  ",
+      "color": {
+        "a": 1,
+        "rgb": 12069375
+      }
+    },
+    {
+      "query": "tag:#Windows  ",
+      "color": {
+        "a": 1,
+        "rgb": 27545
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.2773737470747826,
+  "close": true
+}

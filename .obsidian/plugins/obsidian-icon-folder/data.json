@@ -1,0 +1,90 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiDatabase",
+      "LiCoffee",
+      "LiComputer",
+      "LiFileJson",
+      "LiBox"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "6 - Full Notes/Progamação em C": {
+    "iconName": "LiComputer",
+    "iconColor": "#04f500"
+  },
+  "6 - Full Notes/UX Design": {
+    "iconName": "LiTabletSmartphone",
+    "iconColor": "#bb10f9"
+  },
+  "6 - Full Notes/Segurança": {
+    "iconName": "LiLockKeyhole",
+    "iconColor": "#e0bb00"
+  },
+  "6 - Full Notes/Redes": {
+    "iconName": "LiNetwork",
+    "iconColor": "#00d5ff"
+  },
+  "3 - Tags/Programação em C/C.md": "LiFileCode",
+  "3 - Tags/UX/UX.md": "LiTabletSmartphone",
+  "6 - Full Notes/Segurança/1. Fundamentos  da Cibersegurança": "LiBookLock",
+  "6 - Full Notes/Segurança/2. Segurança de Redes": "LiWifi",
+  "6 - Full Notes/Segurança/3. Segurança de Sistemas e Aplicações": "LiComputer",
+  "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest": "LiVenetianMask",
+  "6 - Full Notes/Segurança/5. Forense Digital e Reposta a Incidentes": "LiFingerprint",
+  "6 - Full Notes/Segurança/6. Criptografia e Segurança de Dados": "LiFolderLock",
+  "6 - Full Notes/Segurança/assets": "LiCamera",
+  "6 - Full Notes/Redes/assets": "LiCamera",
+  "6 - Full Notes/Linux": {
+    "iconName": "LiLeaf",
+    "iconColor": "#1e00ff"
+  },
+  "6 - Full Notes/Linux/assets": "LiCamera",
+  "4 - Indexes/CyberSecurity.md": "LiLockKeyhole",
+  "4 - Indexes/Redes de Computadores.md": "LiNetwork",
+  "4 - Indexes/Programação em C.md": "LiFileCode",
+  "6 - Full Notes/Windows": "🪟",
+  "4 - Indexes/Windows.md": "🪟",
+  "4 - Indexes/Linux.md": "LiLeaf",
+  "6 - Full Notes/Java": {
+    "iconName": "LiCoffee",
+    "iconColor": "#f00000"
+  },
+  "6 - Full Notes/Segurança/0. Projetos Práticos": "LiBox",
+  "6 - Full Notes/JavaScript": {
+    "iconName": "LiFileJson",
+    "iconColor": "#ff9500"
+  },
+  "4 - Indexes/Java.md": "LiCoffee",
+  "4 - Indexes/SQL.md": "LiDatabase",
+  "6 - Full Notes/SQL": {
+    "iconName": "LiDatabase",
+    "iconColor": "#ee7cd9"
+  },
+  "4 - Indexes/JavaScript.md": "LiFileJson"
+}

@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "4a4b6a1ebdb638f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d35bb73cf659d5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2d2c3b557342e4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 - Indexes/CyberSecurity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CyberSecurity"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8bc9c44561a1ec79",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf41d37e1f697572",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c06268ccb9c7ef55",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5d101822f79ebb21",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "são funções que armazenam",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fc10fa3f354ca5df",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 417.5
+  },
+  "right": {
+    "id": "3756061486a44c33",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9e3929d3e5ed8a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e44b6f72165d1363",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "6 - Full Notes/Java/6. Programação Orientada a Objetos (POO)/6.10 Interface.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 6.10 Interface"
+            }
+          },
+          {
+            "id": "02b5541e93ae2d06",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hierarquia de Classes e Métodos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Hierarquia de Classes e Métodos"
+            }
+          },
+          {
+            "id": "559b6ecc50be74ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "6 - Full Notes/Segurança/1. Fundamentos  da Cibersegurança/1.1 Fundamentos da Cibersegurança/1.1.2 Cibersegurança - Na ofensiva/Ecossistema de crime cibernético.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Ecossistema de crime cibernético"
+            }
+          },
+          {
+            "id": "e7cc5d201ad6e0f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8900dfc79d61004a",
+            "type": "leaf",
+            "state": {
+              "type": "link-tree",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 384.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "link-tree:Link Tree": false
+    }
+  },
+  "active": "f2d2c3b557342e4d",
+  "lastOpenFiles": [
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.4 Ferramentas de Rede/Ataque ARP Spoofing + MITM com BetterCap.md",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.4 Ferramentas de Rede/BetterCap - O Swiss Army Knife de Segurança de Redes.md",
+    "6 - Full Notes/Segurança/assets/Pasted image 20251215231929.png",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.4 Ferramentas de Rede/assets/Pasted image 20251215231856.png",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.4 Ferramentas de Rede/assets/Pasted image 20251215231805.png",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.4 Ferramentas de Rede/assets",
+    "4 - Indexes/CyberSecurity.md",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.1 Exploração de vulnerabilidades/CORS - Cross-Origin Resource Sharing.md",
+    "test.html",
+    "script.html",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.1 Exploração de vulnerabilidades/assets/Pasted image 20251214221453.png",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.1 Exploração de vulnerabilidades/assets",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.2 Ferramentas de Exploração e Pós-Exploração/4.2.2.5 Metasploit/WMAP - Framework de Teste Web.md",
+    "6 - Full Notes/Segurança/assets/Pasted image 20251214211631.png",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.2 Ferramentas de Exploração e Pós-Exploração/4.2.2.5 Metasploit/assets",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/Protocolo NAT.md",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.2 Ferramentas de Exploração e Pós-Exploração/4.2.2.5 Metasploit/Metasploit Framework.md",
+    "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.2 Ferramentas de Exploração e Pós-Exploração/4.2.2.5 Metasploit",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/Three-Way Handshake.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/assets/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg",
+    "6 - Full Notes/Java/8. Coleções e Generics/8.3 Classes - ArrayList, HashSet e HashMap.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/assets/Network_Address_Translation_(NAT).png",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/assets",
+    "6 - Full Notes/Segurança/assets/01-searching-mirai.png",
+    "Hierarquia de Classes e Métodos.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/Cabeçalhos de Pacotes.md",
+    "6 - Full Notes/Segurança/assets/equifaxexploitedgaosept2018.jpg",
+    "6 - Full Notes/Segurança/assets/origin.jpg",
+    "Untitled 1.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/Untitled",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/Modelo TCP.IP Aplicado à Cibersegurança.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/Modelo OSI Aplicado à Cibersegurança.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança",
+    "assets",
+    "4 - Indexes/SQL.md",
+    "6 - Full Notes/SQL/6. JUNÇÕES (JOINS)/JOIN em SQL.md",
+    "6 - Full Notes/SQL/Documento de Estudo - Querys em MySQL.md",
+    "4 - Indexes/Java.md",
+    "6 - Full Notes/Java/8. Coleções e Generics/8.2 Interfaces.md",
+    "6 - Full Notes/Java/8. Coleções e Generics/8.1 Java Collections Framework (JCF).md",
+    "6 - Full Notes/Progamação em C/10. Conceitos Avançados/10.5 Estrutura de dados dinâmicas/10.5.5 Grafos/Grafos.md",
+    "6 - Full Notes/Segurança/0. Projetos Práticos/0.3 Cross-Site Scripting (XSS) - Teoria, Prática e Prevenção/Cross-Site Scripting (XSS) - Teoria, Prática e Prevenção.md",
+    "4 - Indexes/Programação em C.md",
+    "6 - Full Notes/Progamação em C/13. Projetos Práticos/Projeto - Casa Inteligente com Estrutura de Árvore.md",
+    "4 - Indexes/Redes de Computadores.md",
+    "6 - Full Notes/Redes/6. Conectividade com a Internet e Segurança/6.3 Tabela de Conversão CIDR - Máscara de Sub-Rede.md",
+    "Untitled.canvas"
+  ]
+}

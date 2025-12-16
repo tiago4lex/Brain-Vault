@@ -176,6 +176,7 @@
 	- [[Redeemer Write-up - Redis]]
 	- [[Unified Write-Up - Nagios]]
 	- [[Appointment Write-up]]
+	- [[CORS - Cross-Origin Resource Sharing]]
 
 - 4.2.2 Ferramentas de Exploração e Pós-Exploração
 	- [[Metasploit Framework]]
@@ -183,17 +184,25 @@
 		- 4.2.2.1 Ferramentas Web
 		- [[Gobuster - Ferramenta para Pentest Web]]
 		- [[Wapiti - Ferramenta de testes de invasão]]
-		- [[6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.2 Ferramentas de Exploração e Pós-Exploração/4.2.1.1 Ferramentas Web/Comando cURL]]
+		- [[Comando cURL]]
 		- [[Hydra Login Cracker]]
 		
-		- 4.2.2.1 SQL Injection
+		- 4.2.2.2 SQL Injection
 			- [[SQL Injection - Usando na prática]]
 			- [[SQLmap - Ferramenta automática de injeção de SQL]]
 			- [[Tipos de SQL Injection e Uso no SQLmap]]
 		
-		- 4.2.2.2 Burp Suite
+		- 4.2.2.3 Burp Suite
 			- [[Burp Suite - Guia Completo de Funcionalidades]]
 			- [[Burp Suite - Interceptação de Requisições]]
+			- [[Força Bruta com CSRF Token usando Burp Suite]]
+		
+		- 4.2.2.4 Nuclei
+			- [[Nuclei - Vulnerability Scanner]]
+			- [[Templates do Nuclei - Como escolher e Usar]]
+		
+		- 4.2.2.5 Metasploit
+			- [[Metasploit Framework]]
 
 - 4.2.3 Ferramentas para DDoS
 	- [[Hping3 em Linux]]
@@ -202,6 +211,8 @@
 - 4.2.4 Ferramentas de Rede
 	- [[Nmap (Network Mapper)]]
 	- [[Pixie-Dust - Ataque de WPS]]
+	- [[BetterCap - O Swiss Army Knife de Segurança de Redes]]
+	- [[Ataque ARP Spoofing + MITM com BetterCap]]
 
 - 4.2.5 Ferramentas de Comunicação
 	- [[BitchX e IRC (Internet Relay Chat)]]
