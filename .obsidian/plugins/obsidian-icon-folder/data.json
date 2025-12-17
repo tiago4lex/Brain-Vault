@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🐍",
       "LiDatabase",
       "LiCoffee",
       "LiComputer",
-      "LiFileJson",
-      "LiBox"
+      "LiFileJson"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -86,5 +86,6 @@
     "iconName": "LiDatabase",
     "iconColor": "#ee7cd9"
   },
-  "4 - Indexes/JavaScript.md": "LiFileJson"
+  "4 - Indexes/JavaScript.md": "LiFileJson",
+  "6 - Full Notes/Python": "🐍"
 }
