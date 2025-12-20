@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/Python.md",
+                "file": "6 - Full Notes/Segurança/0. Projetos Práticos/PWNLAB - Explorando Vulnerabilidades na Aplicação Web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "PWNLAB - Explorando Vulnerabilidades na Aplicação Web"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Full Notes/Python/4. Strings e Manipulação de Texto/4.2 Métodos de String.md",
+                "file": "6 - Full Notes/Python/3. Estruturas de Dados/3.1 Listas (list).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.2 Métodos de String"
+              "title": "3.1 Listas (list)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,9 +198,22 @@
       "link-tree:Link Tree": false
     }
   },
-  "active": "26c87a4904f61f7a",
+  "active": "38271145c7938b1d",
   "lastOpenFiles": [
+    "6 - Full Notes/Segurança/0. Projetos Práticos/assets/Pasted image 20251220022534.png",
+    "6 - Full Notes/Segurança/0. Projetos Práticos/assets/Pasted image 20251220022314.png",
+    "6 - Full Notes/Segurança/0. Projetos Práticos/assets/Pasted image 20251220022245.png",
+    "6 - Full Notes/Segurança/0. Projetos Práticos/assets/Pasted image 20251220022143.png",
+    "6 - Full Notes/Segurança/0. Projetos Práticos/assets/Pasted image 20251220013815.png",
+    "6 - Full Notes/Segurança/0. Projetos Práticos/assets",
     "4 - Indexes/Python.md",
+    "6 - Full Notes/Segurança/0. Projetos Práticos/PWNLAB - Explorando Vulnerabilidades na Aplicação Web.md",
+    "6 - Full Notes/Python/3. Estruturas de Dados/3.1 Listas (list).md",
+    "6 - Full Notes/Python/4. Strings e Manipulação de Texto/4.4 Strings Multilinha.md",
+    "Untitled 1.md",
+    "6 - Full Notes/Python/3. Estruturas de Dados",
+    "Untitled.md",
+    "6 - Full Notes/Python/4. Strings e Manipulação de Texto/4.3 Expressões Regulares.md",
     "6 - Full Notes/Python/4. Strings e Manipulação de Texto/4.2 Métodos de String.md",
     "6 - Full Notes/Python/4. Strings e Manipulação de Texto/4.1 Indexação e Slicing.md",
     "6 - Full Notes/Python/2. Controle de Fluxo/2.2 Estruturas de Repetição.md",
@@ -218,10 +230,6 @@
     "6 - Full Notes/Segurança/assets/Pasted image 20251216162313.png",
     "6 - Full Notes/Segurança/assets/Pasted image 20251216162205.png",
     "6 - Full Notes/Segurança/assets/Pasted image 20251216162032.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251216162000.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251216161949.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251216161942.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251216161904.png",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.2.3 Camada de Aplicação/assets",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.2 Camada de Transporte/Protocolo UDP (Used Datagram Protocol).md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.2.3 Camada de Aplicação",
@@ -230,8 +238,6 @@
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.1 Camada de Rede/assets",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.4 Ferramentas de Rede/Ataque ARP Spoofing + MITM com BetterCap.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.1 Camada de Rede/Cabeçalhos de Pacotes.md",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.2 Camada de Transporte",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.1 Camada de Rede",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.4 Ferramentas de Rede/BetterCap - O Swiss Army Knife de Segurança de Redes.md",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.1 Exploração de vulnerabilidades/CORS - Cross-Origin Resource Sharing.md",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.2 Ferramentas de Exploração e Pós-Exploração/4.2.2.5 Metasploit/WMAP - Framework de Teste Web.md",
@@ -240,13 +246,6 @@
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.2 Camada de Transporte/Three-Way Handshake.md",
     "6 - Full Notes/Java/8. Coleções e Generics/8.3 Classes - ArrayList, HashSet e HashMap.md",
     "Hierarquia de Classes e Métodos.md",
-    "Untitled 1.md",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.1 Camada de Rede/Modelo TCP.IP Aplicado à Cibersegurança.md",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.1 Camada de Rede/Modelo OSI Aplicado à Cibersegurança.md",
-    "4 - Indexes/SQL.md",
-    "6 - Full Notes/SQL/6. JUNÇÕES (JOINS)/JOIN em SQL.md",
-    "6 - Full Notes/SQL/Documento de Estudo - Querys em MySQL.md",
-    "4 - Indexes/Java.md",
     "Untitled.canvas"
   ]
 }

@@ -73,27 +73,18 @@
 
 ---
 
-## 🔹 3. Estruturas de Dados (Essencial)
+## 🔹 3. Estruturas de Dados
 
-### 3.1 Listas (`list`)
+- [[3.1 Listas (list)]]
+	- Criação e acesso
+	- Métodos principais
+	- List comprehension
+	- Listas aninhadas
 
-- Criação e acesso
-    
-- Métodos principais
-    
-- List comprehension
-    
-- Listas aninhadas
-    
-
-### 3.2 Tuplas (`tuple`)
-
-- Imutabilidade
-    
-- Desempacotamento
-    
-- Casos de uso
-    
+- 3.2 Tuplas (`tuple`)
+	- Imutabilidade    
+	- Desempacotamento
+	- Casos de uso
 
 ### 3.3 Conjuntos (`set`)
 
@@ -120,13 +111,17 @@
 ## 🔹 4. Strings e Manipulação de Texto
 
 - [[4.1 Indexação e Slicing]]
-- Métodos de string
-- Formatação:
-    - `format()`
-    - f-strings
+- [[4.2 Métodos de String]]
+	- `upper()`, `lower()`, `capitalize()`, `title()`
+	- `strip()`, `lstrip()`, `rstrip()`
+	- `find()`, `count()`, `startswith()`, `endswith()`
+	- `replace()`
+	- `split()`, `join()`
+	- `isdigit()`, `isalpha()`, `isalnum()` `isspace()`
+	- `format()`, f-strings
 
-- Expressões regulares (`re`)    
-- Strings multilinha
+- [[4.3 Expressões Regulares]]
+- [[4.4 Strings Multilinha]]
 
 ---
 
