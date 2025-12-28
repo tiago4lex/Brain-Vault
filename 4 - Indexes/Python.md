@@ -81,30 +81,21 @@
 	- List comprehension
 	- Listas aninhadas
 
-- 3.2 Tuplas (`tuple`)
+- [[3.2 Tuplas (tuple)]]
 	- Imutabilidade    
 	- Desempacotamento
 	- Casos de uso
 
-### 3.3 Conjuntos (`set`)
+-  [[3.3 Conjuntos (set)]]
+	- Operações matemáticas
+	- Diferenças entre set e list
+	- Casos de uso
 
-- Operações matemáticas
-    
-- Diferenças entre set e list
-    
-- Casos de uso
-    
-
-### 3.4 Dicionários (`dict`)
-
-- Chave e valor
-    
-- Métodos principais
-    
-- Iteração em dicionários
-    
-- Casos de uso práticos
-    
+- [[3.4 Dicionários (dict)]]
+	- Chave e valor
+	- Métodos principais
+	- Iteração em dicionários
+	- Casos de uso práticos
 
 ---
 
