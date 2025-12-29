@@ -7,7 +7,18 @@
 - [[1. Simulador de Ataques e Defesas (Mini-LAB)]]
 - [[2. Montando o ambiente do zero]]
 - [[3. Instalando Aplicações Vulneráveis]]
+- [[4. Ataque de Força Bruta - Hydra]]
 
+### 0.2 Web Scraper - Books to Scrape
+- [[README]]
+
+### 0.3 Cross-Site Scripting (XSS) - Teoria, Prática e Prevenção
+- [[Cross-Site Scripting (XSS) - Teoria, Prática e Prevenção]]
+
+### 0.4 PWNLAB 
+- [[PWNLAB - Explorando Vulnerabilidades na Aplicação Web]]
+
+---
 ## **1. Fundamentos de Cibersegurança**
 
 ### **1.1 Fundamentos da Cibersegurança**
@@ -67,11 +78,8 @@
 ### **1.3 Sistemas Operacionais**
 
 - [[Linux]] (Comandos básicos e avançados, administração)
-    
 - [[Windows]] (Active Directory, PowerShell, GPOs)
-    
 - Virtualização (VMware, VirtualBox, Docker)
-    
 
 ---
 
@@ -95,7 +103,9 @@
 	- [[Protocolo DNS - Domain Name System]]
 	- [[Protocolo HTTP - HyperText Transfer Protocol]]
 	- [[Protocolo HTTPS - HyperText Transfer Protocol Secure]]
-
+	- [[Protocolo SSH - Secure Shell]]
+	- [[Protocolo FTP - File Transfer Protocol]]
+	- [[Protocolo SMB - Server Message Block]]
 
 ### **2.2 Proteção de Infraestrutura**
 

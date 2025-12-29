@@ -26,6 +26,7 @@
 - [[3.5 Text Blocks e Método formatted()]]
 - [[3.6 Conversão de Valores e Casting]]
 - [[3.7 Entrada e Saída de Dados]] com `Scanner` e `System.out`
+- [[3.8 Hierarquia de Classes e Métodos]]
 
 # 4 **Estruturas de Controle**
 - [[4.1 Estruturas Condicionais]] (`if`, `else`, `switch`)
