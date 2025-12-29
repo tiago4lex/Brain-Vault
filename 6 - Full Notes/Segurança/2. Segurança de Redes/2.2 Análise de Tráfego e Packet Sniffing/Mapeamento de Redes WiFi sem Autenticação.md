@@ -1,6 +1,6 @@
   2025-09-28 12:42
 
-Status: #developed #redes 
+Status: #developed #segurança  
 
 Tags: [[CyberSecurity]] | [[Redes de Computadores]]
 

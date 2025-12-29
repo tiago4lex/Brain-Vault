@@ -93,6 +93,8 @@
 
 - 2.1.3 Camada de Aplicação
 	- [[Protocolo DNS - Domain Name System]]
+	- [[Protocolo HTTP - HyperText Transfer Protocol]]
+	- [[Protocolo HTTPS - HyperText Transfer Protocol Secure]]
 
 
 ### **2.2 Proteção de Infraestrutura**
