@@ -112,7 +112,9 @@
 - [[Telnet - Telecommunication Network]]
 - [[FTP, SFTP e seu Uso em Cibersegurança]]
 - [[SMB - Server Message Block]]
-- IDS/IPS (Snort, Suricata)
+- [[Firewall - Fundamentos, Funcionamento e Aplicações]]
+- [[IDS e IPS - Sistemas de Detecção e Prevenção de Intrusões]]
+- [[WAF - Web Application Firewall]]
 - SIEM (Splunk, ELK Stack, IBM QRadar)
 - Honeypots e Honeynets
 - Segmentação de rede ([[5.1 Redes Locais Virtuais (VLAN)]], Microssegmentação)
