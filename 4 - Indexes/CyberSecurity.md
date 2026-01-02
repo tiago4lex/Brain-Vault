@@ -115,6 +115,7 @@
 - [[Firewall - Fundamentos, Funcionamento e Aplicações]]
 - [[IDS e IPS - Sistemas de Detecção e Prevenção de Intrusões]]
 - [[WAF - Web Application Firewall]]
+- [[ACL - Access Control List]]
 - SIEM (Splunk, ELK Stack, IBM QRadar)
 - Honeypots e Honeynets
 - Segmentação de rede ([[5.1 Redes Locais Virtuais (VLAN)]], Microssegmentação)

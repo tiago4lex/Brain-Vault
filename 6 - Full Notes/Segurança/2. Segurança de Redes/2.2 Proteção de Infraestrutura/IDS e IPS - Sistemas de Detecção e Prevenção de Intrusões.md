@@ -16,12 +16,12 @@ Enquanto o IDS tem foco em **detecção e alerta**, o IPS atua de forma **ativa*
 ---
 # Diferença entre IDS e IPS
 
-| **Característica** | **IDS**       | **IPS**             |
-| ------------------ | ------------- | ------------------- |
-| Função principal   | Detectar      | Detectar e bloquear |
-| Ação automática    | Não           | Sim                 |
-| Risco de impacto   | Baixo         | Médio/Alto          |
-| Posicionamento     | Fora do fluxo | Em linha *(inline)* |
+| **Características** | **IDS**                                                                                                           | IPS                                                                                                                                      |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Função Principal    | Monitorar e Alertar sobre atividades suspeitas ou maliciosas.                                                     | Monitorar, Alertar e Bloquear/Prevenir ataques em tempo real.                                                                            |
+| Impacto no Tráfego  | Baixo: Não introduz latência nem tem ponto único de falha no tráfego (se falhar, o tráfego continua).             | Potencialmente Alto: Pode introduzir latência ou ser um ponto único de falha (se falhar, pode parar o tráfego). Requer alta performance. |
+| Falsos Positivos    | Tolerável, pois gera apenas alertas. Um alto número pode causar "fadiga de alerta".                               | Crítico: Um falso positivo pode bloquear tráfego legítimo, causando interrupções no serviço.                                             |
+| Exemplos de Uso     | Monitorar tráfego para conformidade, identificar varreduras de porta, analisar tentativas de invasão após o fato. | Bloquear um ataque de injeção de SQL, impedir a exploração de uma vulnerabilidade conhecida e, um servidor web.                          |
 
 ---
 # Em qual camada IDS e IPS atuam?
