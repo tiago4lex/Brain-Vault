@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d8a0297f7b5de1ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Full Notes/Linux/10. 🔗 Redes no Linux/IPTABLES - Guia Introdutório.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IPTABLES - Guia Introdutório"
-            }
-          },
-          {
             "id": "3ccdf1b35db8d25c",
             "type": "leaf",
             "state": {
@@ -33,6 +19,18 @@
               },
               "icon": "lucide-file",
               "title": "CyberSecurity"
+            }
+          },
+          {
+            "id": "a2d115cc9cfd685f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "6 - Full Notes/Segurança/assets/Pasted image 20260102125856.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260102125856"
             }
           }
         ],
@@ -198,33 +196,37 @@
       "link-tree:Link Tree": false
     }
   },
-  "active": "3ccdf1b35db8d25c",
+  "active": "c06268ccb9c7ef55",
   "lastOpenFiles": [
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102123134.png",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Segmentação de Redes.md",
+    "4 - Indexes/CyberSecurity.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/VPN - Virtual Private Network.md",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125856.png",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/assets/Pasted image 20260102125807.png",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/assets/Pasted image 20260102125751.png",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125652.png",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125637.png",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125600.png",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125448.png",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125439.png",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125413.png",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125326.png",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Proxies.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/assets",
+    "6 - Full Notes/Linux/10. 🔗 Redes no Linux/IPTABLES - Guia Introdutório.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/WAF - Web Application Firewall.md",
-    "6 - Full Notes/Linux/assets/Pasted image 20260102012459.png",
-    "6 - Full Notes/Linux/assets/Pasted image 20260101213543.png",
     "4 - Indexes/Linux.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/ACL - Access Control List.md",
-    "6 - Full Notes/Linux/10. 🔗 Redes no Linux/IPTABLES - Guia Introdutório.md",
     "6 - Full Notes/Linux/10. 🔗 Redes no Linux/IPTABLES - Firewall do Linux.md",
     "6 - Full Notes/Linux/10. 🔗 Redes no Linux/assets",
-    "4 - Indexes/CyberSecurity.md",
     "6 - Full Notes/Segurança/3. Segurança de Sistemas e Aplicações/3.1 Hardening de Sistemas/Medidas de Segurança e Limpeza Automática no Linux.md",
-    "6 - Full Notes/Segurança/assets/Pasted image 20260101211736.png",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/assets",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/IDS e IPS - Sistemas de Detecção e Prevenção de Intrusões.md",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.4 PWNLAB/PWNLAB - Explorando Vulnerabilidades na Aplicação Web.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/SMB - Server Message Block.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Firewall - Fundamentos, Funcionamento e Aplicações.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/FTP, SFTP e seu Uso em Cibersegurança.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Telnet - Telecommunication Network.md",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251229155034.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251230083111.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251230081823.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251229160129.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251229160110.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251229160052.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20251229160035.png",
     "6 - Full Notes/Java/3. Fundamentos da Linguagem/3.8 Hierarquia de Classes e Métodos.md",
     "4 - Indexes/Java.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.3 Camada de Aplicação/Protocolo SMB - Server Message Block.md",
@@ -237,9 +239,6 @@
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.3 Camada de Aplicação/Protocolo HTTPS - HyperText Transfer Protocol Secure.md",
     "4 - Indexes/JavaScript.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.3 Análise de Tráfego e Packet Sniffing/Mapeamento de Redes WiFi sem Autenticação.md",
-    "6 - Full Notes/JavaScript/2. Operadores/2.3 Truthy e Falsy no JavaScript.md",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.3 Camada de Aplicação/Protocolo HTTP - HyperText Transfer Protocol.md",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.3 Camada de Aplicação/Protocolo DNS - Domain Name System.md",
     "6 - Full Notes/Python/3. Estruturas de Dados/assets",
     "test.py",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.4 PWNLAB/assets",

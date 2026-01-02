@@ -116,9 +116,13 @@
 - [[IDS e IPS - Sistemas de Detecção e Prevenção de Intrusões]]
 - [[WAF - Web Application Firewall]]
 - [[ACL - Access Control List]]
+- [[Proxies]]
+- [[VPN - Virtual Private Network]]
 - SIEM (Splunk, ELK Stack, IBM QRadar)
 - Honeypots e Honeynets
-- Segmentação de rede ([[5.1 Redes Locais Virtuais (VLAN)]], Microssegmentação)
+- [[Segmentação de Redes]]
+	- [[5.1 Redes Locais Virtuais (VLAN)]]
+	- Microsegmentação
 
 ### **2.3 Análise de Tráfego e Packet Sniffing**
 
@@ -132,15 +136,15 @@
 
 ### **2.4 Redes Sem Fio e Segurança**
 
-- 2.4.2 Wi-Fi (WEP, WPA, WPA2, WPA3)
+- 2.4.1 Wi-Fi (WEP, WPA, WPA2, WPA3)
 	- [[Testes de Penetração em Redes Wi-Fi]]
 	- [[Reconhecimento e Enumeração em Redes Wi-Fi]]
 
-- 2.4.3 Ataques a redes Wi-Fi (Evil Twin, KRACK, Deauthentication)
+- 2.4.2 Ataques a redes Wi-Fi (Evil Twin, KRACK, Deauthentication)
 	- [[Quebra de Autenticação em Redes Wi-Fi]]
 	- [[Ataques de Ponto de Acesso Falso (Evil Twin)]]
 
-- 2.4.4 Ferramentas (Aircrack-ng, Kismet)
+- 2.4.3 Ferramentas (Aircrack-ng, Kismet)
 	- [[AIRCRACK-NG - Suite Completa de Auditoria Wireless]]
 	- [[AIRCRACK-NG - Necessidade de Dispositivos Conectados para Ataques Wireless]]
 	- [[WIFIPHISHER - Framework de Ataque de Falsa Autenticação Wi-Fi]]
