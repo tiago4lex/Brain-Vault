@@ -25,12 +25,14 @@
             "id": "a2d115cc9cfd685f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "6 - Full Notes/Segurança/assets/Pasted image 20260102125856.png"
+                "file": "6 - Full Notes/Segurança/2. Segurança de Redes/2.4 Redes Sem Fio e Segurança/2.4.1 Wi-Fi (WEP, WPA, WPA2, WPA3)/Segurança em Redes Wi-Fi - Fundamentos, Ataques e Defesas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260102125856"
+              "icon": "lucide-file",
+              "title": "Segurança em Redes Wi-Fi - Fundamentos, Ataques e Defesas"
             }
           }
         ],
@@ -91,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 417.5,
+    "collapsed": true
   },
   "right": {
     "id": "3756061486a44c33",
@@ -196,13 +199,14 @@
       "link-tree:Link Tree": false
     }
   },
-  "active": "c06268ccb9c7ef55",
+  "active": "a2d115cc9cfd685f",
   "lastOpenFiles": [
+    "4 - Indexes/CyberSecurity.md",
+    "6 - Full Notes/Segurança/2. Segurança de Redes/2.4 Redes Sem Fio e Segurança/2.4.1 Wi-Fi (WEP, WPA, WPA2, WPA3)/Segurança em Redes Wi-Fi - Fundamentos, Ataques e Defesas.md",
+    "6 - Full Notes/Segurança/assets/Pasted image 20260102125856.png",
     "6 - Full Notes/Segurança/assets/Pasted image 20260102123134.png",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Segmentação de Redes.md",
-    "4 - Indexes/CyberSecurity.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/VPN - Virtual Private Network.md",
-    "6 - Full Notes/Segurança/assets/Pasted image 20260102125856.png",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/assets/Pasted image 20260102125807.png",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/assets/Pasted image 20260102125751.png",
     "6 - Full Notes/Segurança/assets/Pasted image 20260102125652.png",
@@ -211,7 +215,6 @@
     "6 - Full Notes/Segurança/assets/Pasted image 20260102125448.png",
     "6 - Full Notes/Segurança/assets/Pasted image 20260102125439.png",
     "6 - Full Notes/Segurança/assets/Pasted image 20260102125413.png",
-    "6 - Full Notes/Segurança/assets/Pasted image 20260102125326.png",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Proxies.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/assets",
     "6 - Full Notes/Linux/10. 🔗 Redes no Linux/IPTABLES - Guia Introdutório.md",
@@ -238,7 +241,6 @@
     "Untitled.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.1 Fundamentos de Redes em Cibersegurança/2.1.3 Camada de Aplicação/Protocolo HTTPS - HyperText Transfer Protocol Secure.md",
     "4 - Indexes/JavaScript.md",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.3 Análise de Tráfego e Packet Sniffing/Mapeamento de Redes WiFi sem Autenticação.md",
     "6 - Full Notes/Python/3. Estruturas de Dados/assets",
     "test.py",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.4 PWNLAB/assets",

@@ -133,10 +133,10 @@
 - [[Sniffing de Tráfego de Rede]]
 - [[Mapeamento de Redes WiFi sem Autenticação]]
   
-
 ### **2.4 Redes Sem Fio e Segurança**
 
 - 2.4.1 Wi-Fi (WEP, WPA, WPA2, WPA3)
+	- [[Segurança em Redes Wi-Fi - Fundamentos, Ataques e Defesas]]
 	- [[Testes de Penetração em Redes Wi-Fi]]
 	- [[Reconhecimento e Enumeração em Redes Wi-Fi]]
 
