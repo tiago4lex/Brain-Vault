@@ -11,14 +11,10 @@
             "id": "3932a919f4bb174a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/React2Shell – CVE-2025-55182.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "React2Shell – CVE-2025-55182"
+              "title": "New tab"
             }
           }
         ]
@@ -183,8 +179,9 @@
       "link-tree:Link Tree": false
     }
   },
-  "active": "3932a919f4bb174a",
+  "active": "c06268ccb9c7ef55",
   "lastOpenFiles": [
+    "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/React2Shell – CVE-2025-55182.md",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/assets/Pasted image 20260112211705.png",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/assets/Pasted image 20260112211317.png",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/assets/Pasted image 20260112211246.png",
@@ -195,7 +192,6 @@
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/assets/Pasted image 20260112210352.png",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/assets/Pasted image 20260112210304.png",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/assets/Pasted image 20260103225335.png",
-    "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/React2Shell – CVE-2025-55182.md",
     "4 - Indexes/CyberSecurity.md",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.6 Estabilização de Reverse Shell/Estabilização de Reverse Shell.md",
     "5 - Templates/Generic Note.md",
@@ -215,7 +211,6 @@
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.4 Redes Sem Fio e Segurança/2.4.1 Wi-Fi (WEP, WPA, WPA2, WPA3)/Segurança em Redes Wi-Fi - Fundamentos, Ataques e Defesas.md",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/assets",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell",
-    "6 - Full Notes/Segurança/assets/Pasted image 20260102125856.png",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Segmentação de Redes.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/VPN - Virtual Private Network.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Proxies.md",
