@@ -26,7 +26,7 @@
 #### 1.1.1 Conceitos Básicos
 
 - [[O que é Cibersegurança]]?      
-- [[Tríade CIA]] (Confidencialidade, Integridade, Disponibilidade)
+- [[Tríade CIA - Confidencialidade, Integridade e Disponibilidade]]
 - [[Principais Elementos da Cibersegurança]]
 - [[Gerenciamento de Riscos]]
 - [[Conceitos Errôneos Comuns Sobre Cibersegurança]]
