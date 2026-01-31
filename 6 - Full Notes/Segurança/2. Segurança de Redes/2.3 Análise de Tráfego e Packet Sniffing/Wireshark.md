@@ -63,6 +63,15 @@ wireshark -D
 5. **Bytes do Pacote:** Visualização hexadecimal/ASCII.
 6. **Barra de Status:** Informações da captura atual.
 
+![[66c44fd9733427ea1181ad58-1761929821594.svg]]
+
+| **Barra de ferramentas**           | A barra de ferramentas principal contém vários menus e atalhos para sniffing e processamento de pacotes, incluindo filtragem, classificação, resumo, exportação e mesclagem.                                                    |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Barra de filtro de exibição**    | A seção de consulta e filtragem principal.                                                                                                                                                                                      |
+| **Arquivos recentes**              | Lista dos arquivos recentemente investigados. Você pode lembrar arquivos listados com um duplo clique.                                                                                                                          |
+| **Filtro de captura e interfaces** | Capture filtros e pontos de sniffing disponíveis (interfaces de rede). A interface de rede é o ponto de conexão entre um computador e uma rede. A conexão de software (por exemplo, lo, eth0 e ens33) permite hardware de rede. |
+| **Barra de status**                | Status da ferramenta, perfil e informações numéricas do pacote.                                                                                                                                                                 |
+
 ## Atalhos importantes
 
 - `CTRL + E`: Iniciar/Parar Captura.
@@ -71,8 +80,49 @@ wireshark -D
 - `CTRL + ALT + A`: Abrir arquivo de captura.
 - `Tab:` Navegar entre painéis.
 
+## Carregando arquivos PCAP
+
+A imagem acima mostra a interface vazia do Wireshark. A única informação disponível é o processado recentemente `http1.pcap`ficheiro. Vamos carregar esse arquivo e ver a apresentação detalhada do pacote do Wireshark. Observe que você também pode usar o menu **"Arquivo",** arrastando e soltando o arquivo ou clicando duas vezes no arquivo para carregar um pcap.
+
+![[Pasted image 20260125162607.png]]
+
+Agora, podemos ver o nome do arquivo processado, o número detalhado de pacotes e os detalhes do pacote. Os detalhes do pacote são mostrados em três painéis diferentes, que nos permitem descobri-los em diferentes formatos.
+
+| Painel de lista de pacotes | Resumo de cada pacote (endereços de origem e destino, protocolo e informações de pacotes). Você pode clicar na lista para escolher um pacote para uma investigação mais aprofundada. Depois de selecionar um pacote, os detalhes serão exibidos nos outros painéis. |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Painel Detalhes do Pacote  | Quebra detalhada do protocolo do pacote selecionado.                                                                                                                                                                                                                |
+| Pacote Bytes Pane          | Hex e decodificação da representação ASCII do pacote selecionado. Ele destaca o campo de pacotes, dependendo da seção clicada no painel de detalhes.                                                                                                                |
+
+## Pacotes para colorir
+
+Juntamente com informações rápidas de pacotes, o Wireshark também colore pacotes em ordem de diferentes condições e o protocolo para detectar anomalias e protocolos em capturas rapidamente (isso explica por que quase tudo é verde nas capturas de tela dadas). Essas informações de olhar para o pacote podem ajudar a rastrear exatamente o que você está procurando durante a análise. Você pode criar regras de cores personalizadas para identificar eventos de interesse usando filtros de exibição, e vamos cobri-los na próxima sala. Agora vamos nos concentrar nos padrões e entender como visualizar e usar os detalhes de dados representados.
+
+O Wireshark possui dois tipos de métodos de coloração de pacotes: regras temporárias que estão disponíveis apenas durante uma sessão de programa e regras permanentes que são salvas sob o arquivo de preferência (perfil) e disponíveis para a próxima sessão do programa. Você pode usar o menu "clicar com o botão direito do mouse" ou **"Exibir -> Regras** de colorir" para criar regras de coloração permanente. O menu **"Lista de Pacotes de Colorir"** ativa/desativa as regras de coloração. A coloração temporária de pacotes é feita com o menu "clique com o botão direito do mouse" ou **"Exibir -> Filtro de conversação",** que é coberto na TAREFA 5.
+
+A coloração permanente padrão é mostrada abaixo.
+
+![[Pasted image 20260125162703.png]]
+
+## Trânsito Sniffing
+
+Você pode usar o **"botão tubarão"** azul para iniciar o sniffing de rede (capturando o tráfego), o botão vermelho irá parar o sniffing e o botão verde reiniciará o processo de sniffing. A barra de status também fornecerá a interface de sniffing usada e o número de pacotes coletados.
+
+![[Pasted image 20260125162808.png]]
+
+## Mesclar arquivos PCAP
+
+O Wireshark pode combinar dois arquivos pcap em um único arquivo. Você pode usar o caminho do menu **"Arquivo --> Mesclar"** para mesclar um pcap com o processado. Quando você escolher o segundo arquivo, o Wireshark mostrará o número total de pacotes no arquivo selecionado. Depois de clicar em "abrir", ele vai mesclar o arquivo pcap existente com o escolhido e criar um novo arquivo pcap. Observe que você precisa salvar o arquivo pcap "merso" antes de trabalhar nele.
+
+![[66c44fd9733427ea1181ad58-1760973498209.gif]]
+
+## Ver Detalhes do arquivo
+
+Conhecer os detalhes do arquivo é útil. Especialmente quando se trabalha com vários arquivos pcap, às vezes você precisará saber e lembrar os detalhes do arquivo (hash de arquivo, tempo de captura, comentários de arquivos de captura, interface e estatísticas) para identificar o arquivo, classificá-lo e priorizá-lo. Você pode visualizar os detalhes seguindo **"Estatísticas --> Capturar Propriedades do arquivo"** ou clicando no **ícone "pcap localizado na parte inferior esquerda".**
+
+![[66c44fd9733427ea1181ad58-1760975214987.gif]]
+
 ---
-# Captura de Pacotes
+# Captura de Pacotes via Terminal
 
 ## Captura Básica
 

@@ -9,14 +9,9 @@
 - [[3. Instalando Aplicações Vulneráveis]]
 - [[4. Ataque de Força Bruta - Hydra]]
 
-### 0.2 Web Scraper - Books to Scrape
-- [[README]]
-
 ### 0.3 Cross-Site Scripting (XSS) - Teoria, Prática e Prevenção
 - [[Cross-Site Scripting (XSS) - Teoria, Prática e Prevenção]]
 
-### 0.4 PWNLAB 
-- [[PWNLAB - Explorando Vulnerabilidades na Aplicação Web]]
 
 ---
 ## **1. Fundamentos de Cibersegurança**
@@ -81,6 +76,9 @@
 - [[Windows]] (Active Directory, PowerShell, GPOs)
 - Virtualização (VMware, VirtualBox, Docker)
 
+### **1.4 Governança e Segurança da Informação**
+- [[Governança & Regulamentação]]
+
 ---
 
 ## **2. Segurança de Redes**
@@ -126,10 +124,12 @@
 
 ### **2.3 Análise de Tráfego e Packet Sniffing**
 
+- [[Análise de Tráfego de Rede]]
 - [[Wireshark]]
+- [[Análise de Pacotes com Wireshark]]
 - Tcpdump
-- Análise de logs de rede
-- Detecção de anomalias
+- [[Análise de Logs de Rede]]
+- [[Detecção de Anomalias e Tráfego Suspeito em Redes]]
 - [[Sniffing de Tráfego de Rede]]
 - [[Mapeamento de Redes WiFi sem Autenticação]]
   
@@ -261,12 +261,16 @@
 
 - 4.2.8 Outras Ferramentas
 	- [[CanSniffer - CAN (Controller Area Network)]]
+	- [[John The Ripper]]
 
 ### **4.3 Red Team vs. Blue Team**
 
-- Técnicas de Red Team (Ataques avançados, Persistência)
-    
-- Técnicas de Blue Team (Detecção, Resposta a Incidentes)
+- 4.3.1 Técnicas de Red Team (Ataques avançados, Persistência)
+	- [[Red Team]]
+	- [[Escalamento de Privilégios em Sistemas Linux]]
+	- [[Python para Pentesters]]
+
+- 4.3.2 Técnicas de Blue Team (Detecção, Resposta a Incidentes)
 	- [[Segurança Defensiva, SOC e Blue Team]]
 
 ---

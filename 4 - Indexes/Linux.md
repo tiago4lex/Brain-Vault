@@ -136,8 +136,11 @@
 
 ## 9. 🔒 **Segurança e Permissões**
 
+- [[Permissões Avançadas e Mecanismos de Segurança]]
+	- Controle de acesso com `chmod`, `umask`, `setfacl`
+
+- [[Sticky Bit - Controle de Exclusão em Diretórios Compartilhados]]
 - Conceitos de root, sudoers
-- Controle de acesso com `chmod`, `umask`
 - Firewall básico (`ufw`, `iptables`)
 - SSH seguro, fail2ban, autenticação por chave
 

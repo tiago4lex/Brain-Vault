@@ -118,12 +118,11 @@
 
 ## 🔹 5. Funções
 
-### 5.1 Funções Básicas
-
-- Definição de funções    
-- Parâmetros e retorno
-- Escopo de variáveis
-- Docstrings
+- [[5.1 Funções Básicas]]
+	- Definição de funções    
+	- Parâmetros e retorno
+	- Escopo de variáveis
+	- Docstrings
 
 ### 5.2 Tipos de Parâmetros
 
