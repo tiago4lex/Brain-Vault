@@ -269,6 +269,8 @@
 	- [[Red Team]]
 	- [[Escalamento de Privilégios em Sistemas Linux]]
 	- [[Python para Pentesters]]
+	- [[Reconhecimento Passivo]]
+	- [[Reconhecimento Ativo]]
 
 - 4.3.2 Técnicas de Blue Team (Detecção, Resposta a Incidentes)
 	- [[Segurança Defensiva, SOC e Blue Team]]
