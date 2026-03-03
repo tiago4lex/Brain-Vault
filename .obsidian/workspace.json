@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c0c0b71aec21ebd1",
+        "id": "d6a41056665a598e",
         "type": "tabs",
         "children": [
           {
-            "id": "960d1e44a12beba9",
+            "id": "2193701b46c6333d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/CyberSecurity.md",
+                "file": "6 - Full Notes/JavaScript/Captura e Contagem de Palavras.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CyberSecurity"
-            }
-          },
-          {
-            "id": "4c3f3b1fec7ea535",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.3 Red Team vs. Blue Team/4.3.1 Red Team/Reconhecimento Ativo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reconhecimento Ativo"
+              "title": "Captura e Contagem de Palavras"
             }
           }
         ]
@@ -92,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
-    "collapsed": true
+    "width": 417.5
   },
   "right": {
     "id": "3756061486a44c33",
@@ -198,16 +183,19 @@
       "link-tree:Link Tree": false
     }
   },
-  "active": "960d1e44a12beba9",
+  "active": "c06268ccb9c7ef55",
   "lastOpenFiles": [
+    "6 - Full Notes/JavaScript/Leitura de Arquivos no Node.js.md",
+    "6 - Full Notes/JavaScript/Captura e Contagem de Palavras.md",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.3 Red Team vs. Blue Team/4.3.1 Red Team/Reconhecimento Ativo.md",
+    "4 - Indexes/JavaScript.md",
+    "4 - Indexes/CyberSecurity.md",
+    "Untitled",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.3 Red Team vs. Blue Team/4.3.1 Red Team/Reconhecimento Passivo.md",
-    "Untitled 1.md",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.3 Red Team vs. Blue Team/4.3.1 Red Team/assets/Pasted image 20260130154618.png",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.3 Red Team vs. Blue Team/4.3.1 Red Team/assets/Pasted image 20260130154459.png",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.3 Red Team vs. Blue Team/4.3.1 Red Team/assets",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.2 Ferramentas de Pentest/4.2.8 Outras Ferramentas/John The Ripper.md",
-    "4 - Indexes/CyberSecurity.md",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.3 Red Team vs. Blue Team/4.3.1 Red Team/Escalamento de Privilégios em Sistemas Linux.md",
     "6 - Full Notes/Segurança/4. Ethical Hacking e Pentest/4.3 Red Team vs. Blue Team/4.3.1 Red Team/Python para Pentesters.md",
     "6 - Full Notes/Segurança/1. Fundamentos  da Cibersegurança/1.4 Governança e Segurança da Informação/Governança & Regulamentação.md",
@@ -242,10 +230,7 @@
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.4 PWNLAB/assets",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.3 Análise de Tráfego e Packet Sniffing/Detecção de Anomalias e Tráfego Suspeito em Redes.md",
     "6 - Full Notes/Segurança/2. Segurança de Redes/2.3 Análise de Tráfego e Packet Sniffing/Análise de Tráfego de Rede.md",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.4 Redes Sem Fio e Segurança/2.4.1 Wi-Fi (WEP, WPA, WPA2, WPA3)/Segurança em Redes Wi-Fi - Fundamentos, Ataques e Defesas.md",
-    "6 - Full Notes/Segurança/2. Segurança de Redes/2.2 Proteção de Infraestrutura/Segmentação de Redes.md",
     "6 - Full Notes/Segurança/0. Projetos Práticos/0.6 Estabilização de Reverse Shell",
-    "6 - Full Notes/Segurança/0. Projetos Práticos/0.5 React2Shell/assets",
     "Untitled.canvas"
   ]
 }
